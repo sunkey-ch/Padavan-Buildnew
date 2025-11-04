@@ -87,7 +87,7 @@ on:
         description: 'Plugin JSON, e.g. {"ss":"y","xray":"n"}'
         required: true
         type: string
-        default: '{"shadowsocks":"n","v2ray":"n","xray":"y","trojan":"y","ssobfs":"y","smartdns":"n","vlmcsd":"y","ttyd":"n","iperf3":"n"}'
+        default: '{"shadowsocks":"n","v2ray":"n","xray":"y","trojan":"y","ssobfs":"n","smartdns":"n","vlmcsd":"n","ttyd":"n","iperf3":"n"}'
       customization:
         description: 'Customization JSON'
         required: true
